@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorvete Ice Cream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sorvete Ice Cream</h1>
+      </header>
+      <section class="container">
+        <form id="my-form">
+          <h1>Make your order!🍦</h1>
+          <div>
+              <div class="msg msg0"></div>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+          </div>
+          
+          <div>
+            <label for="number">Mobile number:</label>
+            <input type="number" id="number">
+          </div>
+
+          <div>
+            <label for="city">City:</label>
+            <input type="text" id="city">
+          </div>
+
+          <div>
+            <label for="numic">Number of ice creams:</label>
+            <input type="number" max=10 id="numic">
+          </div>
+          
+          <input class="btn" type="submit" value="CONSULT">
+          <input class="btn" type="button" value="API" onclick="MyApi();">
+        </form>
+  
+        <ul id="users"></ul>
+  
+        <!-- <ul class="items">
+          <li class="item">Item 1</li>
+          <li class="item">Item 2</li>
+          <li class="item">Item 3</li>
+        </ul> -->
+      </section>
+      
+
+      <script src="main.js"></script>
+</body>
+</html>
